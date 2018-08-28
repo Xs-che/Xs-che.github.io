@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>安卓兼职</title>
+  <script>
+    var html = document.querySelector("html");
+    html.style.fontSize = html.offsetWidth / 10 + "px";
+    addEventListener("resize", function () {
+      html.style.fontSize = html.offsetWidth / 10 + "px";
+    }, false);
+  </script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <img class="top" src="./top.jpg" alt="">
+  <ul id="list">
+  </ul>
+</body>
+
+</html>
+<script>
+  window.onload = function () {
+    // 判断是安卓打开还是IOS
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    var list = document.getElementById('list');
+    var listData = [];
+    if (isAndroid) {
+      listData = [{
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '天天挣零花',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '麦子汇',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '赚客',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://zk.xyou123.net/w/link/3886080'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '巨宝朋',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://im.jubaopeng8888.com/jbph5/api/sharePage/12634051'
+      }]
+      document.getElementsByTagName("title")[0].innerText = "安卓兼职"
+    } else if (isiOS) {
+      listData = [{
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: 'imoney',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'https://www.eimoney.com/diamonds/mobile/share/link?promote_code=5850383'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '豆豆趣玩',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://s.hao3536.com/share.html?id=10893446&sf=ios&sfrom=ios'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '钱脉',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://m.qianmaiap.com/?u=581575'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '头号',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://wx.th233.cn/?id=18315626'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '内涵',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'https://invitation.xiaohanclub.top:440/Friend/FenBefor?invid=1373534&channid=2'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '巨宝朋',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://im.jubaopeng8888.com/jbph5/api/sharePage/12634051'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '小鱼赚钱',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://wx.xy599.com/share.php?id=19212165&act_source=invite'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '钱眼儿',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://tg.topaso.vip?u=8?u=8125554&e=147'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '今日赚',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://jrz.jinrizhuanqian.cn?uid?uid=x3neop&sta=0&source=appStore'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '抖赚',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'http://nhbbo.cn/dz/guider/index.html?uid=c875tp1nb1'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '蝉试客',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'https://chanshike.cn/?uid=405110#/homeGuide?uid=405110'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '海豚试玩',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'https://htsw.youdongren.com/invite/?id=795780&from=singlemessage&isappinstalled=0'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '试客小兵',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'https://shike.com/i/UYlBdjn'
+      }, {
+        img: 'http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg',
+        name: '钱咖',
+        // describe: '教你如何月入百万',
+        // btn: '进入',
+        href: 'https://xiaoxiao517.com/?u=57695448'
+      }]
+      document.getElementsByTagName("title")[0].innerText = "苹果兼职"
+    }
+
+    var _html = '';
+    for (var i = 0; i < listData.length; i++) {
+      _html += '<li>'
+      _html += '<a href="' + listData[i].href + '">'
+      // _html += '<img src="' + listData[i].img + '" alt="图片">'
+      _html += '<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534355922867&di=c609740dca0ef601d4db0fa4c87760b3&imgtype=0&src=http%3A%2F%2Fwww.shiwanpingtai.com%2Fupload%2Fimg%2F2016%2F07%2F22%2F579215df86d9a.jpg" alt="图片">'
+      _html += '<div class="center">'
+      _html += '<div class="name">' + listData[i].name + '</div>'
+      if (listData[i].describe) {
+        _html += '<div class="describe">走过路过不要错过</div>'
+      }
+      _html += '</div>'
+      _html += '<div class="btn" data-href="' + listData[i].href + '">进入</div>'
+      _html += '</a>'
+      _html += '</li>'
+    }
+    list.innerHTML = _html
+  }
+</script>
