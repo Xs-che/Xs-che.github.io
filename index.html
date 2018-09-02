@@ -25,7 +25,6 @@
 </html>
 <script src="./data.js"></script>
 <script>
-  console.log(data().AndroidData, data().IOSData)
   window.onload = function () {
     // 判断是安卓打开还是IOS
     var u = navigator.userAgent;
@@ -46,7 +45,6 @@
       _html += '<li>'
       _html += '<a href="' + listData[i].href + '">'
       _html += '<img src="' + listData[i].img + '" alt="图片">'
-      // _html += '<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534355922867&di=c609740dca0ef601d4db0fa4c87760b3&imgtype=0&src=http%3A%2F%2Fwww.shiwanpingtai.com%2Fupload%2Fimg%2F2016%2F07%2F22%2F579215df86d9a.jpg" alt="图片">'
       _html += '<div class="center">'
       _html += '<div class="name">' + listData[i].name + '</div>'
       if (listData[i].describe) {
