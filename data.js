@@ -1,86 +1,110 @@
 var data = function () {
 
   // Android 打开显示的数据
-  var AndroidData = [{
-    img: './images/AndroidData/1.jpg',
-    name: '小啄',
-    describe: '★加入每天签到红包立即到账微信，完成新人福利任务有超高额外奖励，一元提现',
-    href: 'http://t.cn/Rgn6kyn'
-  }, {
-    img: './images/AndroidData/2.jpg',
-    name: '麦子汇',
-    describe: '★新平台，1元起提，任务超多，超给力，简单试玩赚钱',
-    href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
-  }, {
-    img: './images/AndroidData/3.png',
-    name: '零用钱',
-    describe: '试玩任务多，简单易做单价高。',
-    href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
-  }, {
-    img: './images/AndroidData/4.jpg',
-    name: '手游赚',
-    describe: '加入就送3元，10元起提，任务超多',
-    href: 'http://www.shouyouzhuan.net/?ts=1632498?qq'
-  }, {
-    img: './images/AndroidData/5.jpg',
-    name: '火牛视频',
-    describe: '视频赚平台，打赏点赞赚，2元即提',
-    href: 'http://www.changzhizhuangxiuwang.com/static/firebull/share-download.html?roomId=2683416&uid=5b62aa30b44059106ca0af5c&appfrom=ios-firebull-10'
-  }, {
-    img: './images/AndroidData/6.png',
-    name: '每天赚点',
-    describe: '每天赚点收入满1元起兑换一个Q币，满10元起兑换手机话费或者支付宝提现',
-    href: 'http://weixinshare.quickzhuan.cn/390156/202931.do?code=12431257&flag=1'
-  }, {
-    img: './images/AndroidData/7.jpg',
-    name: '每日赚点',
-    describe: '试玩每单收入1-2元左右，任务超多，简单易做',
-    href: 'http://share.xiaomeeyouxi.cn/share_page/index.html?id=2976d6b4669f4f06ae297c90211ae0f9'
-  }, {
-    img: './images/AndroidData/8.png',
-    name: '红包试客',
-    describe: '试玩任务多，简单易做单价高。',
-    href: 'http://inv.ms0312.com/839812'
-  }, {
-    img: './images/AndroidData/9.png',
-    name: '赚客',
-    describe: '新平台，加入随即送3元，单价1.0元，任务多',
-    href: 'http://zk.xyou123.net/w/link/3886080'
-  }, {
-    img: './images/AndroidData/10.png',
-    name: '巨宝朋',
-    describe: '任务单价1-3元，加入送2元大量评论任务（ipad可用）10提现',
-    href: 'http://im.jubaopeng8888.com/jbph5/api/sharePage/12634051'
-  }, {
-    img: './images/AndroidData/11.png',
-    name: '东方头条',
-    describe: '加入就送3元，5元起提，任务超多',
-    href: 'http://620ab6d4.er.8ae9.cn/f3ca29ec/51/1bfcfcd1/e9.html?mYoAt5alN5'
-  }, {
-    img: './images/AndroidData/12.jpg',
-    name: '淘新闻',
-    describe: '帐户积累金额，看新闻获得的收入，快捷提现或商城兑换。',
-    href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
-  }, {
-    img: './images/AndroidData/13.jpg',
-    name: '趣头条',
-    describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
-    href: 'http://html5.qukantoutiao.net/2018/1/562278305.html'
-  }, {
-    img: './images/AndroidData/14.jpg',
-    name: '中青看点',
-    describe: '看新闻赚钱，无投入、纯赚钱。新手送1元可马上提现',
-    href: 'https://kandian.youth.cn/user/share?uid=13687592'
-  }
+  var AndroidData = [
+    {
+      img: './images/-1.jpg',
+      name: '新手教程',
+      describe: "新人必看，内有视频教程",
+      href: './html/新手视频教程.html'
+    },
+    {
+      img: './images/-2.jpg',
+      name: '新手进阶',
+      describe: "如何日赚过百，月入数千",
+      href: './html/新手进阶，一天赚100完整攻略！.html'
+    }, {
+      img: './images/AndroidData/1.jpg',
+      name: '小啄',
+      describe: '★加入每天签到红包立即到账微信，完成新人福利任务有超高额外奖励，一元提现',
+      href: 'http://t.cn/Rgn6kyn'
+    }, {
+      img: './images/AndroidData/2.jpg',
+      name: '麦子汇',
+      describe: '★新平台，1元起提，任务超多，超给力，简单试玩赚钱',
+      href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
+    }, {
+      img: './images/AndroidData/3.png',
+      name: '零用钱',
+      describe: '试玩任务多，简单易做单价高。',
+      href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
+    }, {
+      img: './images/AndroidData/4.jpg',
+      name: '手游赚',
+      describe: '加入就送3元，10元起提，任务超多',
+      href: 'http://www.shouyouzhuan.net/?ts=1632498?qq'
+    }, {
+      img: './images/AndroidData/5.jpg',
+      name: '火牛视频',
+      describe: '视频赚平台，打赏点赞赚，2元即提',
+      href: './html/火牛视频.html'
+    }, {
+      img: './images/AndroidData/6.png',
+      name: '每天赚点',
+      describe: '每天赚点收入满1元起兑换一个Q币，满10元起兑换手机话费或者支付宝提现',
+      href: 'http://weixinshare.quickzhuan.cn/390156/202931.do?code=12431257&flag=1'
+    }, {
+      img: './images/AndroidData/7.jpg',
+      name: '每日赚点',
+      describe: '试玩每单收入1-2元左右，任务超多，简单易做',
+      href: 'http://share.xiaomeeyouxi.cn/share_page/index.html?id=2976d6b4669f4f06ae297c90211ae0f9'
+    }, {
+      img: './images/AndroidData/8.png',
+      name: '红包试客',
+      describe: '试玩任务多，简单易做单价高。',
+      href: 'http://inv.ms0312.com/839812'
+    }, {
+      img: './images/AndroidData/9.png',
+      name: '赚客',
+      describe: '新平台，加入随即送3元，单价1.0元，任务多',
+      href: 'http://zk.xyou123.net/w/link/3886080'
+    }, {
+      img: './images/AndroidData/10.png',
+      name: '巨宝朋',
+      describe: '任务单价1-3元，加入送2元大量评论任务（ipad可用）10提现',
+      href: 'http://im.jubaopeng8888.com/jbph5/api/sharePage/12634051'
+    }, {
+      img: './images/AndroidData/11.png',
+      name: '东方头条',
+      describe: '加入就送3元，5元起提，任务超多',
+      href: 'http://620ab6d4.er.8ae9.cn/f3ca29ec/51/1bfcfcd1/e9.html?mYoAt5alN5'
+    }, {
+      img: './images/AndroidData/12.jpg',
+      name: '淘新闻',
+      describe: '帐户积累金额，看新闻获得的收入，快捷提现或商城兑换。',
+      href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
+    }, {
+      img: './images/AndroidData/13.jpg',
+      name: '趣头条',
+      describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
+      href: 'http://html5.qukantoutiao.net/2018/1/562278305.html'
+    }, {
+      img: './images/AndroidData/14.jpg',
+      name: '中青看点',
+      describe: '看新闻赚钱，无投入、纯赚钱。新手送1元可马上提现',
+      href: 'https://kandian.youth.cn/user/share?uid=13687592'
+    }
 
   ]
   // IOS 打开显示的数据
   var IOSData = [
     {
+      img: './images/-1.jpg',
+      name: '新手教程',
+      describe: "新人必看，内有视频教程",
+      href: './html/新手视频教程.html'
+    },
+    {
+      img: './images/-2.jpg',
+      name: '新手进阶',
+      describe: "如何日赚过百，月入数千",
+      href: './html/新手进阶，一天赚100完整攻略！.html'
+    },
+    {
       img: './images/IOSData/1.png',
       name: 'imoney',
       describe: '最佳试玩平台，每单收入1.3-3.0元，10元可提，每天下午16点大量任务，必玩平台',
-      href: 'https://www.eimoney.com/diamonds/mobile/share/link?promote_code=5850383'
+      href: './html/imoney.html'
     }, {
       img: './images/IOSData/2.jpg',
       name: 'PP红包',
@@ -91,6 +115,11 @@ var data = function () {
       name: '钱咖',
       describe: '登录送1-2元，试玩每单收入1.5-3.5元，下午4点超多任务',
       href: 'https://xiaoxiao517.com/?u=57695448'
+    }, {
+      img: './images/AndroidData/5.jpg',
+      name: '火牛视频',
+      describe: '视频赚平台，打赏点赞赚，2元即提',
+      href: './html/火牛视频.html'
     }, {
       img: './images/IOSData/4.jpg',
       name: '小鱼赚钱',

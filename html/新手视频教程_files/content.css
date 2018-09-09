@@ -1,0 +1,15 @@
+﻿body { margin: 0; padding: 0; /*margin: 0 auto;*/ min-width: 320px; /*max-width: 640px;*/ /*background: #F6F6F6;*/ -webkit-text-size-adjust: 100% !important; position: relative; }
+
+#mainer { padding: 10px;padding-top:5px;  }
+
+.content_title h2 { margin: 0; padding: 0; vertical-align: baseline; margin-bottom: 10px; }
+
+.content_title span { color: #8c8c8c; font-size: 14px; }
+
+#content { /*margin-top: 10px;*/ word-wrap : break-word ;}
+/*.div_shiwan{width:100%; background-color:#FFF;position:fixed;}*/
+.div_shiwan { text-align: center; width: 100%; /*box-shadow: 1px 1px 4px #888888;*/ position: fixed; bottom: 0; margin: auto; left: 0; right: 0; border-top: 1px solid #F2F2F2; background-color: #FFF; }
+
+.div_shiwan .shiwan { margin: 0 auto; margin-bottom: 10px; margin-top: 10px; text-decoration: none; padding: 10px; color: #FFF; display: block; background-color: #44b549; border-radius: 5px; letter-spacing: 2px; width: 85.6666%; font-weight: 700; }
+
+#content img { max-width: 98%; }
