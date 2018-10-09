@@ -24,21 +24,21 @@ var data = function () {
       describe: '★新平台，1元起提，任务超多，超给力，简单试玩赚钱',
       href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
     }, {
-      img: './images/AndroidData/3.png',
-      name: '零用钱',
-      describe: '试玩任务多，简单易做单价高。',
-      href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
-    }, {
+      // img: './images/AndroidData/3.png',
+     //  name: '零用钱',
+     //  describe: '试玩任务多，简单易做单价高。',
+     //  href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
+    // }, {
       img: './images/AndroidData/4.jpg',
       name: '手游赚',
       describe: '加入就送3元，10元起提，任务超多',
       href: 'http://www.shouyouzhuan.net/?ts=1632498?qq'
     }, {
-      img: './images/AndroidData/5.jpg',
-      name: '火牛视频',
-      describe: '视频赚平台，打赏点赞赚，2元即提',
-      href: './html/火牛视频.html'
-    }, {
+      // img: './images/AndroidData/5.jpg',
+      // name: '火牛视频',
+      // describe: '视频赚平台，打赏点赞赚，2元即提',
+      // href: './html/火牛视频.html'
+    // }, {
       img: './images/AndroidData/6.png',
       name: '每天赚点',
       describe: '每天赚点收入满1元起兑换一个Q币，满10元起兑换手机话费或者支付宝提现',
@@ -116,11 +116,11 @@ var data = function () {
       describe: '登录送1-2元，试玩每单收入1.5-3.5元，下午4点超多任务',
       href: 'https://xiaoxiao517.com/?u=57695448'
     }, {
-      img: './images/AndroidData/5.jpg',
-      name: '火牛视频',
-      describe: '视频赚平台，打赏点赞赚，2元即提',
-      href: './html/火牛视频.html'
-    }, {
+      // img: './images/AndroidData/5.jpg',
+      // name: '火牛视频',
+      // describe: '视频赚平台，打赏点赞赚，2元即提',
+      // href: './html/火牛视频.html'
+    // }, {
       img: './images/IOSData/4.jpg',
       name: '小鱼赚钱',
       describe: '试玩每单收入1.0-3.0元，15:00-18:00大量刷任务很多哦，很给力平台',
