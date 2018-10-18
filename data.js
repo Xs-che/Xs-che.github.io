@@ -89,7 +89,7 @@ var data = function () {
       describe: '看新闻赚钱，一定填红包邀请码J8DNHLWK',
       href: 'http://lite.m.163.com/app/3g-lite/share.html?inviteCode=J8DNHLWK'
     }, {
-      img: './images/AndroidData/轻松赚.jpg',
+      img: './images/AndroidData/轻松赚.png',
       name: '轻松赚',
       describe: '轻松赚 轻松提现',
       href: 'https://kandian.youth.cn/user/share?uid=13687592'
