@@ -131,7 +131,7 @@ var data = function () {
       describe: '最佳试玩平台，每单收入1.3-3.0元，10元可提，每天下午16点大量任务，必玩平台',
       href: './html/imoney.html'
     }, {
-      img: './images/IOSData/2.jpg',
+      img: './images/AndroidData/9.png',
       name: '赚客',
       describe: '试玩每单收入1.0-3.5元，加入送2元红包，提现速度快',
       href: 'http://zk.xyou123.net/w/link/3886080'
