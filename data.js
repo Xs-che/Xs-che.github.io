@@ -56,7 +56,7 @@ var data = function () {
     }, {
       img: './images/AndroidData/9.png',
       name: '赚客',
-      describe: '新平台，加入随即送3元，单价1.0元，任务多',
+      describe: '试玩每单收入1.0-3.5元，加入送2元红包，提现速度快',
       href: 'http://zk.xyou123.net/w/link/3886080'
     }, {
       img: './images/AndroidData/10.png',
