@@ -1,8 +1,7 @@
 var data = function () {
 
   // Android 打开显示的数据
-  var AndroidData = [
-    {
+  var AndroidData = [{
       img: './images/-1.jpg',
       name: '新手教程',
       describe: "新人必看，内有视频教程",
@@ -24,11 +23,11 @@ var data = function () {
       describe: '★新平台，1元起提，任务超多，超给力，简单试玩赚钱',
       href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
     }, {
-      // img: './images/AndroidData/3.png',
-      //  name: '零用钱',
-      //  describe: '试玩任务多，简单易做单价高。',
-      //  href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
-      // }, {
+      img: './images/toutiao.png',
+      name: '爱上头条',
+      describe: '看新闻赚零花钱 1元就可以提现',
+      href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
+    }, {
       img: './images/AndroidData/4.jpg',
       name: '手游赚',
       describe: '加入就送3元，10元起提，任务超多',
@@ -112,8 +111,7 @@ var data = function () {
 
   ]
   // IOS 打开显示的数据
-  var IOSData = [
-    {
+  var IOSData = [{
       img: './images/-1.jpg',
       name: '新手教程',
       describe: "新人必看，内有视频教程",
@@ -141,11 +139,11 @@ var data = function () {
       describe: '登录送1-2元，试玩每单收入1.5-3.5元，下午4点超多任务',
       href: 'https://xiaoxiao517.com/?u=57695448'
     }, {
-      // img: './images/AndroidData/5.jpg',
-      // name: '火牛视频',
-      // describe: '视频赚平台，打赏点赞赚，2元即提',
-      // href: './html/火牛视频.html'
-      // }, {
+      img: './images/toutiao.png',
+      name: '爱上头条',
+      describe: '看新闻赚零花钱 1元就可以提现',
+      href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
+    }, {
       img: './images/IOSData/4.jpg',
       name: '小鱼赚钱',
       describe: '试玩每单收入1.0-3.0元，15:00-18:00大量刷任务很多哦，很给力平台',
@@ -280,7 +278,7 @@ var data = function () {
       name: '趣头条',
       describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
       href: 'http://html5.qukantoutiao.net/2018/1/562278305.html'
-    }, {/**---------- */
+    }, { /**---------- */
       img: './images/IOSData/聚优钱.jpg',
       name: '聚优钱',
       describe: '每单收入1-3元，10元可提现；',
