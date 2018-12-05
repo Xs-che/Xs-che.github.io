@@ -26,7 +26,7 @@ var data = function () {
       img: './images/toutiao.png',
       name: '爱上头条',
       describe: '看新闻赚零花钱 1元就可以提现',
-      href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
+      href: 'https://client.makezixun.com/weixinShare.html?inviteCode=ald064'
     }, {
       img: './images/AndroidData/4.jpg',
       name: '手游赚',
@@ -142,7 +142,7 @@ var data = function () {
       img: './images/toutiao.png',
       name: '爱上头条',
       describe: '看新闻赚零花钱 1元就可以提现',
-      href: 'http://fycsm.cn/Wap/v5/invitation.html?inviteCode=13916050&shareTag=&shareFrom=tips'
+      href: 'https://client.makezixun.com/weixinShare.html?inviteCode=ald064'
     }, {
       img: './images/IOSData/4.jpg',
       name: '小鱼赚钱',
