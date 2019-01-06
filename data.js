@@ -23,11 +23,11 @@ var data = function () {
       describe: '★新平台，1元起提，任务超多，超给力，简单试玩赚钱',
       href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
     }, {
-      img: './images/toutiao.png',
-      name: '爱上头条',
-      describe: '看新闻赚零花钱 1元就可以提现',
-      href: 'https://client.makezixun.com/weixinShare.html?inviteCode=ald064'
-    }, {
+    //   img: './images/toutiao.png',
+    //   name: '爱上头条',
+    //   describe: '看新闻赚零花钱 1元就可以提现',
+    //   href: 'https://client.makezixun.com/weixinShare.html?inviteCode=ald064'
+    // }, {
       img: './images/AndroidData/4.jpg',
       name: '手游赚',
       describe: '加入就送3元，10元起提，任务超多',
@@ -48,11 +48,11 @@ var data = function () {
       describe: '试玩每单收入1-2元左右，任务超多，简单易做',
       href: 'http://share.xiaomeeyouxi.cn/share_page/index.html?id=2976d6b4669f4f06ae297c90211ae0f9'
     }, {
-      img: './images/AndroidData/8.png',
-      name: '红包试客',
-      describe: '试玩任务多，简单易做单价高。',
-      href: 'http://inv.ms0312.com/839812'
-    }, {
+    //   img: './images/AndroidData/8.png',
+    //   name: '红包试客',
+    //   describe: '试玩任务多，简单易做单价高。',
+    //   href: 'http://inv.ms0312.com/839812'
+    // }, {
       img: './images/AndroidData/9.png',
       name: '赚客',
       describe: '试玩每单收入1.0-3.5元，加入送2元红包，提现速度快',
@@ -83,21 +83,6 @@ var data = function () {
       describe: '看新闻赚钱，无投入、纯赚钱。新手送1元可马上提现',
       href: 'https://kandian.youth.cn/user/share?uid=13687592'
     }, {
-      img: './images/AndroidData/网易新闻.jpg',
-      name: '网易新闻',
-      describe: '看新闻赚钱，一定填红包邀请码J8DNHLWK',
-      href: 'http://lite.m.163.com/app/3g-lite/share.html?inviteCode=J8DNHLWK'
-    }, {
-      img: './images/AndroidData/轻松赚.png',
-      name: '轻松赚',
-      describe: '轻松赚 轻松提现',
-      href: 'https://kandian.youth.cn/user/share?uid=13687592'
-    }, {
-      img: './images/AndroidData/大大红包.jpg',
-      name: '大大红包',
-      describe: '大大红包 单价高任务多，每天三次领红包 下载助手时不要用QQ浏览器',
-      href: 'http://sdbzhb.com.cn?code=91105471'
-    }, {
       img: './images/AndroidData/蛋蛋赚.jpg',
       name: '蛋蛋赚',
       describe: '无门槛，一元提现秒到',
@@ -107,6 +92,11 @@ var data = function () {
       name: '豆豆趣玩',
       describe: '一定要填写红包邀请码 S10893446',
       href: 'http://s.hao3536.com/share.html?id=10893446&sf=ios&sfrom=ios'
+    }, {
+      img: './images/赚宝.png',
+      name: '赚宝',
+      describe: '让年轻人通过手机轻松赚钱，0投入！高回报！时间自由！',
+      href: 'http://share1.zhuanbao-easytry.com/apps/shi-recruit/115958'
     }
 
   ]
@@ -184,10 +174,10 @@ var data = function () {
       //   describe: '新平台，即刻赚，加入随即送1元，单价0.9元，任务多',
       //   href: 'http://jkzhuan.com/i/3162130746'
       // }, {
-      img: './images/IOSData/12.jpg',
-      name: '婵试客',
+      img: './images/多玩红包.png',
+      name: '多玩红包',
       describe: '每单收入1.0-3.0元，很多任务，非常给力，必做平台',
-      href: 'csk1.xiaochanzhuanqian.cn/?uid=405110'
+      href: 'http://duowanhongbao.com/'
     }, {
       img: './images/IOSData/13.png',
       name: '掉钱眼儿',
@@ -342,7 +332,7 @@ var data = function () {
       img: './images/IOSData/贝宝.jpg',
       name: '贝宝',
       describe: '新平台 单价高，任务多，10元可提现；',
-      href: 'https://m.beibaoyx.com?mem_id=10308351'
+      href: 'https://m.beibaoyx.com?mem_id=10495518'
     }, {
       img: './images/IOSData/巨宝朋.jpg',
       name: '巨宝朋',
