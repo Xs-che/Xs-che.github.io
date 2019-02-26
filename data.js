@@ -129,11 +129,11 @@ var data = function () {
       describe: '登录送1-2元，试玩每单收入1.5-3.5元，下午4点超多任务',
       href: 'https://xiaoxiao517.com/?u=57695448'
     }, {
-      img: './images/toutiao.png',
-      name: '爱上头条',
-      describe: '看新闻赚零花钱 1元就可以提现',
-      href: 'https://client.makezixun.com/weixinShare.html?inviteCode=ald064'
-    }, {
+     // img: './images/toutiao.png',
+     // name: '爱上头条',
+     // describe: '看新闻赚零花钱 1元就可以提现',
+     // href: 'https://client.makezixun.com/weixinShare.html?inviteCode=ald064'
+   // }, {
       img: './images/IOSData/4.jpg',
       name: '小鱼赚钱',
       describe: '试玩每单收入1.0-3.0元，15:00-18:00大量刷任务很多哦，很给力平台',
