@@ -119,11 +119,11 @@ var data = function () {
       describe: '最佳试玩平台，每单收入1.3-3.0元，10元可提，每天下午16点大量任务，必玩平台',
       href: './html/imoney.html'
     }, {
-      img: './images/AndroidData/9.png',
-      name: '赚客',
-      describe: '试玩每单收入1.0-3.5元，加入送2元红包，提现速度快',
-      href: 'http://zk.xyou123.net/w/link/3886080'
-    }, {
+      //img: './images/AndroidData/9.png',
+      //name: '赚客',
+      //describe: '试玩每单收入1.0-3.5元，加入送2元红包，提现速度快',
+      //href: 'http://zk.xyou123.net/w/link/3886080'
+    //}, {
       img: './images/IOSData/3.jpg',
       name: '钱咖',
       describe: '登录送1-2元，试玩每单收入1.5-3.5元，下午4点超多任务',
@@ -174,11 +174,11 @@ var data = function () {
       //   describe: '新平台，即刻赚，加入随即送1元，单价0.9元，任务多',
       //   href: 'http://jkzhuan.com/i/3162130746'
       // }, {
-      img: './images/多玩红包.png',
-      name: '多玩红包',
-      describe: '每单收入1.0-3.0元，很多任务，非常给力，必做平台',
-      href: 'http://duowanhongbao.com/'
-    }, {
+      //img: './images/多玩红包.png',
+      //name: '多玩红包',
+      //describe: '每单收入1.0-3.0元，很多任务，非常给力，必做平台',
+      //href: 'http://duowanhongbao.com/'
+    //}, {
       img: './images/IOSData/13.png',
       name: '掉钱眼儿',
       describe: '试玩每单收入单价超高，每天10点和14点免费抢红包，大量任务',
