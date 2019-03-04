@@ -189,16 +189,16 @@ var data = function () {
       describe: '新平台，任务超多，不用首次，2元即可提现～',
       href: 'http://share.qf.onweone.com?unique_id=11155093&channel=recruit'
     }, {
-      img: './images/IOSData/16.jpg',
-      name: '糖果猫',
-      describe: '试玩每单收入0.8-1.8元，任务多，16:00--18:00刷新任务',
-      href: 'http://share.jinchanzhuanqian.cn?uid=112863'
-    }, {
-      img: './images/IOSData/17.jpg',
-      name: '聚有钱',
-      describe: '新平台，试玩每单收入1.0-3.0元，10元提现',
-      href: 'http://jyouqian.com/weixin/friendJoin?re=S37o-GU1bo8%23&bm=2.00'
-    }, {
+      //img: './images/IOSData/16.jpg',
+      //name: '糖果猫',
+      //describe: '试玩每单收入0.8-1.8元，任务多，16:00--18:00刷新任务',
+      //href: 'http://share.jinchanzhuanqian.cn?uid=112863'
+    //}, {
+      //img: './images/IOSData/17.jpg',
+      //name: '聚有钱',
+      //describe: '新平台，试玩每单收入1.0-3.0元，10元提现',
+      //href: 'http://jyouqian.com/weixin/friendJoin?re=S37o-GU1bo8%23&bm=2.00'
+    //}, {
       img: './images/IOSData/18.jpg',
       name: '秒来大钱',
       describe: '试玩每单收入1.0-3.0元，5元起提 15：30-18:30大量刷',
@@ -244,11 +244,11 @@ var data = function () {
       describe: '微信10元提现。任务多，集中在4点。',
       href: 'http://s.hao3536.com/share.html?id=10893446&sf=ios&sfrom=ios'
     }, {
-      img: './images/IOSData/26.png',
-      name: '今日赚',
-      describe: '新平台-今日赚，任务单价1-2元，（ipad可用）',
-      href: 'http://jrz.jinrizhuanqian.cn?uid=x3neop&sta=0&source=appStore'
-    }, {
+      //img: './images/IOSData/26.png',
+      //name: '今日赚',
+      //describe: '新平台-今日赚，任务单价1-2元，（ipad可用）',
+      //href: 'http://jrz.jinrizhuanqian.cn?uid=x3neop&sta=0&source=appStore'
+    //}, {
       img: './images/IOSData/27.png',
       name: '试客小兵',
       describe: '试玩每单收入0.8-1.8元，任务多，16:00--18:00刷新任务',
@@ -314,11 +314,11 @@ var data = function () {
       describe: '每单收入0.8-3元，5元可提现；10点后大量任务',
       href: 'http://huojianshiwan.com/#/link/WWFIU0JiTzNjckdDbTgvQzB3MjFXUT09'
     }, {
-      img: './images/IOSData/熊猫赚钱.jpg',
-      name: '熊猫赚钱',
-      describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
-      href: 'http://m.jinrizuijia.net/invite/?inviter=rTJEEGCZ8adluPyolggwgneHCuI0p8h70SK-kQnKRgqC3ju3gxWBCasfSbnoSdQJTlI6_63JwDE1&from=link'
-    }, {
+      //img: './images/IOSData/熊猫赚钱.jpg',
+      //name: '熊猫赚钱',
+      //describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
+      //href: 'http://m.jinrizuijia.net/invite/?inviter=rTJEEGCZ8adluPyolggwgneHCuI0p8h70SK-kQnKRgqC3ju3gxWBCasfSbnoSdQJTlI6_63JwDE1&from=link'
+    //}, {
       img: './images/IOSData/小猫赚钱.jpg',
       name: '小猫赚钱',
       describe: '单价奖励1元起，提现微信秒到',
@@ -329,11 +329,11 @@ var data = function () {
       describe: '老平台，加入送2元；任务较多，16点大量',
       href: 'http://safe.duobaoman.top/p/s.html?t=2&id=121447401&c=0&s=XVSVQ'
     }, {
-      img: './images/IOSData/贝宝.jpg',
-      name: '贝宝',
-      describe: '新平台 单价高，任务多，10元可提现；',
-      href: 'https://m.beibaoyx.com?mem_id=10495518'
-    }, {
+      //img: './images/IOSData/贝宝.jpg',
+      //name: '贝宝',
+      //describe: '新平台 单价高，任务多，10元可提现；',
+      //href: 'https://m.beibaoyx.com?mem_id=10495518'
+    //}, {
       img: './images/IOSData/巨宝朋.jpg',
       name: '巨宝朋',
       describe: '新平台，活动多；任务较多',
