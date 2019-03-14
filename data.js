@@ -117,7 +117,8 @@ var data = function () {
       img: './images/IOSData/1.png',
       name: 'imoney',
       describe: '最佳试玩平台，每单收入1.3-3.0元，10元可提，每天下午16点大量任务，必玩平台',
-      href: './html/imoney.html'
+      //href: './html/imoney.html'
+      href:"https://www.eimoney.com/diamonds/mobile/share/link?promote_code=5850383"
     }, {
       //img: './images/AndroidData/9.png',
       //name: '赚客',
