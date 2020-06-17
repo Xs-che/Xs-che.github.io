@@ -109,11 +109,11 @@ var data = function () {
     describe: '加入就送3元，5元起提，任务超多',
     href: 'http://620ab6d4.er.8ae9.cn/f3ca29ec/51/1bfcfcd1/e9.html?mYoAt5alN5'
   }, {
-    img: './images/AndroidData/12.jpg',
-    name: '淘新闻',
-    describe: '帐户积累金额，看新闻获得的收入，快捷提现或商城兑换。',
-    href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
-  }, {
+  //   img: './images/AndroidData/12.jpg',
+  //   name: '淘新闻',
+  //   describe: '帐户积累金额，看新闻获得的收入，快捷提现或商城兑换。',
+  //   href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
+  // }, {
     img: './images/AndroidData/13.jpg',
     name: '趣头条',
     describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
@@ -332,11 +332,11 @@ var data = function () {
     describe: '加入就送3元，5元起提，任务超多',
     href: 'http://620ab6d4.er.8ae9.cn/f3ca29ec/51/1bfcfcd1/e9.html?mYoAt5alN5'
   }, {
-    img: './images/IOSData/29.jpg',
-    name: '淘新闻',
-    describe: '试玩每单收入0.8-1.8元，任务多，16:00--18:00刷新任务',
-    href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
-  }, {
+  //   img: './images/IOSData/29.jpg',
+  //   name: '淘新闻',
+  //   describe: '试玩每单收入0.8-1.8元，任务多，16:00--18:00刷新任务',
+  //   href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
+  // }, {
     img: './images/IOSData/30.jpg',
     name: '趣头条',
     describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
