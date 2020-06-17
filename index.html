@@ -110,12 +110,12 @@
     var guideImg = document.getElementById("guideImg");
     document.getElementById("shut").onclick = function () {
       guideBox.style.display = 'none';
-      // guideImg.style.display = 'none';
     }
     document.getElementById("addBtn").onclick = function () {
       guideBox.style.display = 'block';
-      guideImg.src="./images/t.jpg"
-      // guideImg.style.display = 'block';
+      if (!guideImg.src) {
+        guideImg.src = "./images/t.jpg"
+      }
     }
     var number = +localStorage.getItem("demoNumber") || 3591;
     var numberDom = document.getElementById("number")
