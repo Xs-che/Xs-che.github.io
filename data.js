@@ -13,6 +13,17 @@ var data = function () {
     describe: "如何日赚过百，月入数千",
     href: './html/新手进阶，一天赚100完整攻略！.html'
   }, {
+
+    img: './images/AndroidData/2.jpg',
+    name: '麦子汇',
+    describe: '★新平台，1元起提，任务超多，超给力，简单试玩赚钱',
+    href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
+  }, {
+    img: './images/AndroidData/1.jpg',
+    name: '小啄',
+    describe: '★加入每天签到红包立即到账微信，完成新人福利任务有超高额外奖励，一元提现',
+    href: 'http://t.cn/Rgn6kyn'
+  }, {
     img: './images/20200616/掉钱眼儿.jpg',
     name: '掉钱眼儿',
     describe: '新上平台 试玩每单收入1-2元',
@@ -52,17 +63,6 @@ var data = function () {
     name: 'IMONEY',
     describe: '新上平台 试玩每单收入1-2元',
     href: 'http://land.qushiwan.cn/land.html?promote=androidctp6nak'
-  }
-    , {
-    img: './images/AndroidData/1.jpg',
-    name: '小啄',
-    describe: '★加入每天签到红包立即到账微信，完成新人福利任务有超高额外奖励，一元提现',
-    href: 'http://t.cn/Rgn6kyn'
-  }, {
-    img: './images/AndroidData/2.jpg',
-    name: '麦子汇',
-    describe: '★新平台，1元起提，任务超多，超给力，简单试玩赚钱',
-    href: 'http://maizizhuan.cn/activity/yaoqing?id=Vmtab2QxTnJNSGRPVkZwVlZrVnJPUT09'
   }, {
     //   img: './images/toutiao.png',
     //   name: '爱上头条',
@@ -109,11 +109,11 @@ var data = function () {
     describe: '加入就送3元，5元起提，任务超多',
     href: 'http://620ab6d4.er.8ae9.cn/f3ca29ec/51/1bfcfcd1/e9.html?mYoAt5alN5'
   }, {
-  //   img: './images/AndroidData/12.jpg',
-  //   name: '淘新闻',
-  //   describe: '帐户积累金额，看新闻获得的收入，快捷提现或商城兑换。',
-  //   href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
-  // }, {
+    //   img: './images/AndroidData/12.jpg',
+    //   name: '淘新闻',
+    //   describe: '帐户积累金额，看新闻获得的收入，快捷提现或商城兑换。',
+    //   href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
+    // }, {
     img: './images/AndroidData/13.jpg',
     name: '趣头条',
     describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
@@ -332,11 +332,11 @@ var data = function () {
     describe: '加入就送3元，5元起提，任务超多',
     href: 'http://620ab6d4.er.8ae9.cn/f3ca29ec/51/1bfcfcd1/e9.html?mYoAt5alN5'
   }, {
-  //   img: './images/IOSData/29.jpg',
-  //   name: '淘新闻',
-  //   describe: '试玩每单收入0.8-1.8元，任务多，16:00--18:00刷新任务',
-  //   href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
-  // }, {
+    //   img: './images/IOSData/29.jpg',
+    //   name: '淘新闻',
+    //   describe: '试玩每单收入0.8-1.8元，任务多，16:00--18:00刷新任务',
+    //   href: 'http://a6.app.qq.com/o/simple.jsp?pkgname=com.coohua.xinwenzhuan&ckey=CK1369766774491&ch=c&uId=49215397&env=p'
+    // }, {
     img: './images/IOSData/30.jpg',
     name: '趣头条',
     describe: '注册领3元，而且阅读，转发都能赚钱，3元提现',
