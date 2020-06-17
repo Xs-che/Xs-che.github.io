@@ -155,6 +155,17 @@ var data = function () {
     describe: "如何日赚过百，月入数千",
     href: './html/新手进阶，一天赚100完整攻略！.html'
   }, {
+    img: './images/IOSData/1.png',
+    name: 'imoney',
+    describe: '最佳试玩平台，每单收入1.3-3.0元，10元可提，每天下午16点大量任务，必玩平台',
+    //href: './html/imoney.html'
+    href: "https://www.eimoney.com/diamonds/mobile/share/link?promote_code=5850383"
+  }, {
+    img: './images/20200616/小啄赚钱.jpg',
+    name: '小啄赚钱',
+    describe: '新上平台 试玩每单收入1-2元',
+    href: 'https://w.url.cn/s/ALEcGmq'
+  }, {
     img: './images/20200616/懒猫.jpg',
     name: '懒猫试玩',
     describe: '新上平台 试玩每单收入1-2元',
@@ -175,23 +186,12 @@ var data = function () {
     describe: '新上平台 试玩每单收入1-2元',
     href: 'http://edgh.ppyoucai.com/?r=818395915&d=20200615&en=yiketong&t=link&m=1&bt=1'
   }, {
-    img: './images/20200616/小啄赚钱.jpg',
-    name: '小啄赚钱',
-    describe: '新上平台 试玩每单收入1-2元',
-    href: 'https://w.url.cn/s/ALEcGmq'
-  }, {
     img: './images/20200616/天天赚零花.jpg',
     name: '天天赚零花',
     describe: '新上平台 试玩每单收入1-2元',
     href: 'http://we.xigua09.cn/index.html?inviteCode=3039630&reference=qqFriend'
   },
   {
-    img: './images/IOSData/1.png',
-    name: 'imoney',
-    describe: '最佳试玩平台，每单收入1.3-3.0元，10元可提，每天下午16点大量任务，必玩平台',
-    //href: './html/imoney.html'
-    href: "https://www.eimoney.com/diamonds/mobile/share/link?promote_code=5850383"
-  }, {
     //img: './images/AndroidData/9.png',
     //name: '赚客',
     //describe: '试玩每单收入1.0-3.5元，加入送2元红包，提现速度快',

@@ -26,7 +26,7 @@
 <body>
   <div class="guideBox" id="guideBox">
     <img src="./images/shut.png" class="shut" id="shut">
-    <img src="./images/t.jpg" class="guideImg">
+    <img src="" class="guideImg" id="guideImg">
   </div>
   <div class="cus-top-notice cus-clearfix">
     <img src="./images/logo.png" class="cus-tn-left">
@@ -107,11 +107,15 @@
       document.getElementById("ul").style.top = index * height + 'px'
     }, 3000)
     var guideBox = document.getElementById("guideBox");
+    var guideImg = document.getElementById("guideImg");
     document.getElementById("shut").onclick = function () {
       guideBox.style.display = 'none';
+      // guideImg.style.display = 'none';
     }
     document.getElementById("addBtn").onclick = function () {
       guideBox.style.display = 'block';
+      guideImg.src="./images/t.jpg"
+      // guideImg.style.display = 'block';
     }
     var number = +localStorage.getItem("demoNumber") || 3591;
     var numberDom = document.getElementById("number")
