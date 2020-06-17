@@ -1,4 +1,5 @@
 @rem: 37.5rem;
+
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +18,99 @@ a:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.guideBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 10;
+  display: none;
+
+  .shut {
+    position: absolute;
+    top: 20/@rem;
+    right: 20/@rem;
+    width: 20/@rem;
+    height: 20/@rem;
+  }
+
+  .guideImg {
+    width: 100%;
+  }
+}
+
+.cus-top-notice {
+  display: flex;
+  align-items: center;
+  padding-left: 10/@rem;
+  padding-right: 10/@rem;
+  background-color: rgb(0, 0, 0, .6);
+
+  .cus-tn-left {
+    width: 40/@rem;
+    height: 40/@rem;
+  }
+
+  .cus-tn-notices {
+    flex: 1;
+    font-size: 14/@rem;
+    line-height: 40/@rem;
+    position: relative;
+    width: 211/@rem;
+    height: 40/@rem;
+    overflow: hidden;
+  }
+
+  .cus-btn {
+    height: 26/@rem;
+    border-radius: 26/@rem;
+    line-height: 26/@rem;
+    padding-left: 10/@rem;
+    padding-right: 10/@rem;
+    font-size: 14/@rem;
+    color: #fff;
+    background: linear-gradient(to right, rgb(255, 208, 68), rgb(255, 144, 85));
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40/@rem;
+  line-height: 40/@rem;
+  padding-left: 10/@rem;
+  padding-right: 10/@rem;
+
+  .txt {
+    font-size: 20/@rem;
+    font-weight: 700;
+    position: relative;
+    padding-left: 10/@rem;
+  }
+
+  .txt::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3/@rem;
+    height: 20/@rem;
+    background-color: red;
+  }
+
+  .number {
+    font-size: 14/@rem;
+    color: gray;
+  }
+}
+
 .top {
   width: 100%;
+  display: block;
 }
 
 #list {
@@ -26,33 +118,50 @@ a:link {
   padding-left: 14/@rem;
   padding-right: 14/@rem;
   padding-bottom: 30/@rem;
+  padding-top: 10/@rem;
+
   li {
     a {
       display: flex;
       justify-content: space-between;
-      padding-top: 10/@rem;
-      padding-bottom: 10/@rem;
       border-bottom: 1px solid #eee;
+      background-color: #fff;
+      border-radius: 10/@rem;
+      margin-top: 10/@rem;
+      padding: 10/@rem;
+
       img {
         width: 50/@rem;
         height: 50/@rem;
         margin-right: 6px;
         font-size: 12/@rem;
+        border-radius: 6/@rem;
       }
+
       .center {
         flex: 1;
         padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
         .name {
           color: #222;
           font-weight: 700;
           font-size: 15/@rem;
         }
+
         .describe {
           font-size: 12/@rem;
           text-align: justify;
           color: #999;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          width: 190/@rem;
         }
       }
+
       .btn {
         transform: translateY(20%);
         height: 33/@rem;

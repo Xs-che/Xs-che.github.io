@@ -4,23 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta class="viewport" name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <title>安卓兼职</title>
   <script>
     var html = document.querySelector("html");
-    html.style.fontSize = html.offsetWidth / 10 + "px";
+    var fontSize = html.offsetWidth / 10 < 60 ? html.offsetWidth / 10 : 60
+    html.style.fontSize = fontSize + "px";
     addEventListener("resize", function () {
-      html.style.fontSize = html.offsetWidth / 10 + "px";
+      var fontSize = html.offsetWidth / 10 < 60 ? html.offsetWidth / 10 : 60
+      html.style.fontSize = fontSize + "px";
     }, false);
   </script>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+  <div class="guideBox" id="guideBox">
+    <img src="./images/shut.png" class="shut" id="shut">
+    <img src="./images/t.jpg" class="guideImg">
+  </div>
+  <div class="cus-top-notice cus-clearfix">
+    <img src="./images/logo.png" class="cus-tn-left">
+    <div class="cus-tn-notices marquee_1">
+      <ul id="ul" style="position: relative; width: auto; height: 9999px; top: 0px;transition: all 0.6s;">
+        <li style="float: none;"><a href="#" class="ellipsis">试玩助手更新找不到下载地址？</a></li>
+        <li style="float: none;"><a href="#" class="ellipsis">试玩助手无法信任打开怎么办？</a></li>
+        <li style="float: none;"><a href="#" class="ellipsis">卸载重新安装一下助手即可！</a></li>
+        <li style="float: none;"><a href="#" class="ellipsis">请务必「保存网址」</a></li>
+        <li style="float: none;"><a href="#" class="ellipsis">以免入口变更无法进入！</a></li>
+      </ul>
+    </div>
+    <div class="cus-btn cus-tn-btn" id="addBtn">
+      安装入口
+    </div>
+  </div>
   <img class="top" src="./top.jpg" alt="">
+  <div class="title">
+    <div class="txt" id="titleTxt"></div>
+    <div class="number" id="number"></div>
+  </div>
   <ul id="list">
   </ul>
 </body>
@@ -38,9 +65,16 @@
     if (isAndroid) {
       listData = data().AndroidData
       document.getElementsByTagName("title")[0].innerText = "安卓兼职"
+      document.getElementById("titleTxt").innerText = "安卓赚钱优选"
+      document.getElementById("addBtn").style.display = 'none'
     } else if (isiOS) {
       listData = data().IOSData
       document.getElementsByTagName("title")[0].innerText = "苹果兼职"
+      document.getElementById("titleTxt").innerText = "苹果赚钱优选";
+    } else {
+      listData = data().IOSData
+      document.getElementsByTagName("title")[0].innerText = "苹果兼职"
+      document.getElementById("titleTxt").innerText = "苹果赚钱优选";
     }
 
     var _html = '';
@@ -53,11 +87,40 @@
       if (listData[i].describe) {
         _html += '<div class="describe">' + listData[i].describe + '</div>'
       }
+      // 打发的撒发
       _html += '</div>'
       _html += '<div class="btn" data-href="' + listData[i].href + '">进入</div>'
       _html += '</a>'
       _html += '</li>'
     }
     list.innerHTML = _html
+    var index = 0;
+    var height = document.getElementById("ul").children[0].clientHeight;
+    setInterval(function () {
+      index--
+      if (index == -5) {
+        index = 0;
+        document.getElementById("ul").style.transition = ""
+      } else if (index != -5) {
+        document.getElementById("ul").style.transition = "all 0.6s"
+      }
+      document.getElementById("ul").style.top = index * height + 'px'
+    }, 3000)
+    var guideBox = document.getElementById("guideBox");
+    document.getElementById("shut").onclick = function () {
+      guideBox.style.display = 'none';
+    }
+    document.getElementById("addBtn").onclick = function () {
+      guideBox.style.display = 'block';
+    }
+    var number = +localStorage.getItem("demoNumber") || 3591;
+    var numberDom = document.getElementById("number")
+    function sum(m, n) {
+      var num = Math.floor(Math.random() * (m - n) + n);
+      number += num;
+      numberDom.innerText = number + '人正在试玩'
+      localStorage.setItem("demoNumber", number)
+    }
+    sum(1, 10);
   }
 </script>
